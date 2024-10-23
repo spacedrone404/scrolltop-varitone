@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.section {
+    transition: background-color 0.3s;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+
+}
+
+.section1 {
+    height: 100vh;
+    z-index: 1;
+
+}
+
+.section2 {
+    height: 75vh;
+    z-index: 1;
+
+}
+.section3 {
+    height: 90vh;
+    z-index: 1;
+
+}
+
+.section4 {
+    height: 80vh;
+    z-index: 1;
+
+}
+
+.section5 {
+    height: 70vh;
+    z-index: 1;
+
+}
+
+
+.dark {
+    background-color: #182a84;
+}
+
+.light {
+    background-color: #fff;
+}
+
+
+#svgIcon {
+    position: fixed;
+    bottom: 200px; 
+    right: 80px;   
+    width: 50px;
+    height: 50px;
+    z-index: 99999;
+}
